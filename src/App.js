@@ -11,7 +11,8 @@ const [query, setQuery] = useState('');
 let city ='';
 useEffect(()=>{
   fetchUserLoc();
-},[])
+}, [])
+  // to get date
   const getDate =(d) =>{
     const day = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
     const Month = ['January','Febrary','March','April','May','June','July','August','September','October','November','December']
