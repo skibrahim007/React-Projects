@@ -14,7 +14,7 @@ useEffect(()=>{
 }, [])
   // to get date
   const getDate =(d) =>{
-    const day = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+    const day = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     const Month = ['January','Febrary','March','April','May','June','July','August','September','October','November','December']
     return day[d.getDay()] + "," + d.getDate() + " " + Month[d.getMonth()] + " " + d.getFullYear()
   }
