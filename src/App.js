@@ -70,7 +70,7 @@ const callFetch = (e) =>{
     <div className={
       typeof weather.main != 'undefined' ?
         (weather.weather[0].main === 'Clouds') ? 'app-clouds' :
-          (weather.weather[0].main === 'Rain') ? 'app-rain' :
+          (weather.weather[0].main === 'Rain' || weather.weather[0].main === 'Thunderstrom') ? 'app-rain' :
           (weather.weather[0].main === 'Haze') ? 'app-haze' :'app'
       : 'app'
     }>
