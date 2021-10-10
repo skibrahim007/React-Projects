@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.app{
+  background: url('./images/summer.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.3s ease-out;
+}
+.app-rain{
+  background: url('./images/rain.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.3s ease-out;
+}
+.app-clouds{
+  background: url('./images/cloud.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.3s ease-out;
+}
+.app-haze{
+  background: url('./images/Haze.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.3s ease-out;
+}
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.1));
+  padding:25px;
+  color: white;
+}
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;    
+}
+.search-bar{
+  width: 100%;
+  display: block;
+  padding:15px;
+  border: none;
+  outline:none;
+  appearance: none;
+  border-radius: 0 0 14px 14px;
+  background-color: rgba(255,255,255,0.95);
+  margin-top: -25px;
+}
+.location-box .location{
+  font-size: 32px;
+  font-weight: 500;
+  text-align:center ;
+   text-shadow: 1px 1px black;
+
+}
+.location-box .date{
+  font-size: 20px;
+  font-weight: 500;
+  text-align:center ;
+  font-style: italic;
+   text-shadow: 1px 1px black;
+}
+.weather-box {
+   text-align: center;
+}
+.weather-box .temp{
+  position: relative;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 10%;
+  display:inline-block;   
+  margin:30px auto;
+  font-size: 52px;
+   padding: 15px 25px;
+    text-shadow: 3px 3px black;
+  
+}
+.weather-box .weather{
+   font-size: 48px;
+   font-weight: 700;
+   text-shadow: 3px 3px black;
+}
+.not-found{
+  text-align:center;
+  font-size: 52px;
+  font-weight: 500;
+  text-shadow: 3px 3px black;
+}
+
